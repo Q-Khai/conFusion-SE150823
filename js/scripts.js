@@ -1,4 +1,4 @@
-<script src="js/scripts.js">
+
         $(document).ready(function () {
             $("#mycarousel").carousel({ interval: 2000 });
             $("#carousel-pause").click(function () {
@@ -21,5 +21,3 @@
                 $("#carouselButton").children("span").addClass('fa-pause');
             }
         });
-
-    </script>
