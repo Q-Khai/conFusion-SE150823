@@ -21,3 +21,12 @@
                 $("#carouselButton").children("span").addClass('fa-pause');
             }
         });
+
+        $('#reserveTable').click(function(){
+            $('#reserveModal').modal('show');
+        })
+
+
+        $('#loginTable').click(function(){
+            $('#loginModal').modal('show');
+        })
